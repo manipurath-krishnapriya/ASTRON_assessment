@@ -6,7 +6,8 @@ for x in range(999,100,-1):
         product = x * y
         if (str(product) == str(product)[::-1]):
             palindromes.append(product)  
-print("\n Method 1 \n The largest palindrome made from the product of two 3-digit numbers is " + str(max(palindromes)))
+solution = max(palindromes)
+print("\n Method 1 \n The largest palindrome made from the product of two 3-digit numbers is " + str(solution))
 
 #________________________________________________________________________________________________________#
 
